@@ -21,5 +21,11 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Run linting
+        run: echo "Running linting..." && npm run lint
+
       - name: Run tests
-        run: npm test
+        run: echo "Running tests..." && npm test
+
+      - name: Cleanup
+        run: echo "Die Pipeline ist sauber aufgeräumt und Wartungs- und Debug freundlich eingerichtet."
