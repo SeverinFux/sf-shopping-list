@@ -1,0 +1,6 @@
+- Repository eingerichtet und GitHub Action für Pushes auf main erstellt.
+- Workflow-Datei und Ordner workflow (`ci.yml`) hinzugefügt und initialen Commit gepusht. 
+- Linter und Jest-Tests in die Pipeline integriert.
+- Tests für `Header`-Komponente funktionierten nicht; lange mit Babel-Konfiguration beschäftigt.
+- Pipeline grundsätzlich funktionsfähig, aber hatte gelegentliche Versionsfehler bei Node und React/React DOM. (gefixt)
+- Projekt ist wartungsfreundlich eingerichtet. (CI/CD, Linter, Tests, etc. mit vielen echos um die Pipeline zu debuggen)
